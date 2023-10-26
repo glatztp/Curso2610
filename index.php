@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário de cadastro</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<style type="text/css">
+		
+		.container{
+			width: 750px;
+		}
+		
+	</style>
+
+</head>
+<body>
+  <div class="container" style="margin-top:40px;">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <center>
+        <h5 class="card-title">Adiconar Produto</h5>
+        <p class="card-text">Opcao para adicionar produtos.</p>
+        <a href="adicionar_produto.php" class="btn btn-primary">Adicionar</a>
+  </center>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+      <center>
+        <h5 class="card-title">Listar produtos</h5>
+        <p class="card-text">Visualizar, editar, e excluir os produtos.</p>
+        <a href="listar_produtos.php" class="btn btn-primary">Listar</a>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
